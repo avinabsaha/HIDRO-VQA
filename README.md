@@ -40,7 +40,7 @@ Note that in distributed training, ```batch_size``` value will be the number of 
 After HIDRO_VQA model training is complete, a SVR is trained using HIDRO_VQA features and corresponding ground truth quality scores from LIVE-HDR using the following command. It assumes features from each video is extracted (per frame) and stored in a numpy files in a folder. 
 
 ```
-python train_svr.py --score_file <score_csv_file> ----feature_folder <feature_folder_path> --train_and_test
+python train_svr.py --score_file <score_csv_file> --feature_folder <feature_folder_path> --train_and_test
 ```
 
 ## Contact
