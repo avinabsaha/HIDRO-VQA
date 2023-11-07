@@ -130,7 +130,7 @@ for file in files:
             feats[loop_idx] = feat 
     
     
-    np.save("./CONTRIQUE_feats_HDR_FineTuned_Pretrained_SDR/" + file[file.rfind("/")+1:-3]+"npy",feats)
+    np.save("./HIDROVQA_feats_HDR_FineTuned_Pretrained_SDR/" + file[file.rfind("/")+1:-3]+"npy",feats)
 
 
 
