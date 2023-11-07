@@ -129,6 +129,15 @@ def main(gpu, args):
 
     # Load SDR Pretrained Model    
     model.load_state_dict(torch.load("checkpoints/CONTRIQUE_checkpoint25.tar",map_location=args.device.type))
+
+    # Resume Training
+    if args.reload:
+        model_fp = os.path.join(
+            args.model_path, "checkpoint_{}.tar".format(args.epoch_num)
+        )
+        model.load_state_dict(torch.load(model_fp, map_location=args.device.type))
+
+
     model = model.to(args.device)
     
     #sgd optmizer
