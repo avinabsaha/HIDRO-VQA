@@ -10,26 +10,13 @@ This is the official repository of the paper [HIDRO-VQA : High Dynamic Range Ora
 The code has been tested on Linux systems with python 3.9. Please refer to [requirements.txt](requirements.txt) for installing dependent packages.
 
 ### Running HIDRO-VQA
-In order to obtain quality-aware features or to start the HDR quality-aware, checkpoints need to be downloaded.  Download the checkpoint folder from the [link](https://drive.google.com/drive/folders/1wuakzvupOxwVv9Sa3Ta0IKjkSBPqG8MG?usp=sharing) and save them to the checkpoints folder.
+In order to obtain quality-aware features or to start the HDR quality-aware fine-tuning, checkpoints need to be downloaded.  Download the checkpoint folder from the [link](https://drive.google.com/drive/folders/1wuakzvupOxwVv9Sa3Ta0IKjkSBPqG8MG?usp=sharing) and save them to the checkpoints folder.
 
 
-
-### Obtaining Quality Scores
-We provide trained regressor models in [models](models) directory which can be used for predicting image quality using features obtained from CONTRIQUE model. For demonstration purposes, some sample images provided in the [sample_images](sample_images) folder.
-
-For blind quality prediction, the following commands can be used.
+### Obtaining HIDRO-VQA Features on the LIVE HDR Database
+For calculating HIDRO-VQA features, the following commands can be used. The features are saved in '.npy' format. It assumes that the videos are stored raw YUV 10-bit format, upscaled to 4K. Please change path of the videos in line 97
 ```
-python3 demo_score.py --im_path sample_images/60.bmp --model_path models/CONTRIQUE_checkpoint25.tar --linear_regressor_path models/CLIVE.save
-python3 demo_score.py --im_path sample_images/img66.bmp --model_path models/CONTRIQUE_checkpoint25.tar --linear_regressor_path models/LIVE.save
-```
-
-
-
-### Obtaining CONTRIQUE Features
-For calculating CONTRIQUE features, the following commands can be used. The features are saved in '.npy' format.
-```
-python3 demo_feat.py --im_path sample_images/60.bmp --model_path models/CONTRIQUE_checkpoint25.tar --feature_save_path features.npy
-python3 demo_feat.py --im_path sample_images/img66.bmp --model_path models/CONTRIQUE_checkpoint25.tar --feature_save_path features.npy
+python demo_hidro_vqa_feats.py
 ```
 
 ## Training CONTRIQUE
