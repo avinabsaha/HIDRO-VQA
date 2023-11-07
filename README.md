@@ -37,7 +37,7 @@ CUDA_VISIBLE_DEVICES=2 python train.py --nodes 3 --nr 2 --batch_size 256 --lr 0.
 Note that in distributed training, ```batch_size``` value will be the number of images to be loaded on each GPU. 
 
 ### Training Regressor
-After HIDRO_VQA model training is complete, a SVR is trained using HIDRO_VQA features and corresponding ground truth quality scores from LIVE-HDR using the following command. It assumes features from each video is extracted (per frame) and stored in a numpy files in a folder. 
+After HIDRO_VQA model training is complete, a SVR is trained using HIDRO_VQA features and corresponding ground truth quality scores from LIVE-HDR using the following command. It assumes features from each video is extracted (per frame) and stored using individual numpy files in a folder. 
 
 ```
 python train_svr.py --score_file <score_csv_file> --feature_folder <feature_folder_path> --train_and_test
