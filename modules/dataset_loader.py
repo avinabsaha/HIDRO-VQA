@@ -134,7 +134,7 @@ class hdr_image_data(Dataset):
 
         
         img_name = self.fls[idx] #.iloc[idx]['File_names'].rstrip()
-        image_orig = np.load("/scratch/09032/saini_2/HDR_LIVE/Pretraining_data/" + img_name).astype(np.float32)
+        image_orig = np.load("/corral/utexas/Automatic-Assessment/avinab/HDR_Clips/HDR_Clips_Frames_RGB/" + img_name).astype(np.float32)
         image_orig = cv2.resize(image_orig , dsize = (3840,2160), interpolation=cv2.INTER_CUBIC)
         image_orig = torch.permute(torch.from_numpy(image_orig), (2, 0, 1))
         
