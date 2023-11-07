@@ -2,7 +2,7 @@
 
 Shreshth Saini*, Avinab Saha*, and Alan C. Bovik
 
-* equal contribution
+(* denotes equal contribution)
 
 This is the official repository of the paper [HIDRO-VQA : High Dynamic Range Oracle for Video Quality Assessment](https://arxiv.org/abs/2110.13266)
 
