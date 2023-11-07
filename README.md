@@ -76,7 +76,7 @@ python3 train_regressor.py --feat_path feat.npy --ground_truth_path scores.npy -
 ```
 
 ## Contact
-Correspondence to : Avinab Saha (avinab.saha@utexas.edu) and Shreshth Sainin (saini_02@utexas.edu)
+Correspondence to : Avinab Saha (avinab.saha@utexas.edu) and Shreshth Saini (saini.2@utexas.edu)
 
 ## Citation
 ```
