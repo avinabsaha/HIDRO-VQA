@@ -5,13 +5,12 @@ Shreshth Saini Avinab Saha, and Alan C. Bovik
 This is the official repository of the paper [HIDRO-VQA : High Dynamic Range Oracle for Video Quality Assessment](https://arxiv.org/abs/2110.13266)
 
 ## Usage
-The code has been tested on Linux systems with python 3.6. Please refer to [requirements.txt](requirements.txt) for installing dependent packages.
+The code has been tested on Linux systems with python 3.9. Please refer to [requirements.txt](requirements.txt) for installing dependent packages.
 
 ### Running HIDRO-VQA
-In order to obtain quality-aware features or to start the HDR quality-aware, checkpoints need to be downloaded.  Download the checkpoint folder using this [link](https://drive.google.com/drive/folders/1wuakzvupOxwVv9Sa3Ta0IKjkSBPqG8MG?usp=sharing) and save them to the checkpoints folder.
+In order to obtain quality-aware features or to start the HDR quality-aware, checkpoints need to be downloaded.  Download the checkpoint folder from the [link](https://drive.google.com/drive/folders/1wuakzvupOxwVv9Sa3Ta0IKjkSBPqG8MG?usp=sharing) and save them to the checkpoints folder.
 
 
-G
 
 ### Obtaining Quality Scores
 We provide trained regressor models in [models](models) directory which can be used for predicting image quality using features obtained from CONTRIQUE model. For demonstration purposes, some sample images provided in the [sample_images](sample_images) folder.
