@@ -7,14 +7,11 @@ This is the official repository of the paper [HIDRO-VQA : High Dynamic Range Ora
 ## Usage
 The code has been tested on Linux systems with python 3.6. Please refer to [requirements.txt](requirements.txt) for installing dependent packages.
 
-### Running CONTRIQUE
-In order to obtain quality score using CONTRIQUE model, checkpoint needs to be downloaded. The following command can be used to download the checkpoint.
-```
-wget -L https://utexas.box.com/shared/static/rhpa8nkcfzpvdguo97n2d5dbn4qb03z8.tar -O models/CONTRIQUE_checkpoint25.tar -q --show-progress
-```
-Alternatively, the checkpoint can also be downloaded using this [link](https://utexas.box.com/s/rhpa8nkcfzpvdguo97n2d5dbn4qb03z8).
+### Running HIDRO-VQA
+In order to obtain quality-aware features or to start the HDR quality-aware, checkpoints need to be downloaded.  Download the checkpoint folder using this [link](https://drive.google.com/drive/folders/1wuakzvupOxwVv9Sa3Ta0IKjkSBPqG8MG?usp=sharing) and save them to the checkpoints folder.
 
-Google drive link for the checkpoint [link](https://drive.google.com/file/d/1pmaomNVFhDgPSREgHBzZSu-SuGzNJyEt/view?usp=drive_web).
+
+G
 
 ### Obtaining Quality Scores
 We provide trained regressor models in [models](models) directory which can be used for predicting image quality using features obtained from CONTRIQUE model. For demonstration purposes, some sample images provided in the [sample_images](sample_images) folder.
