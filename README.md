@@ -4,7 +4,7 @@ Shreshth Saini*, Avinab Saha*, and Alan C. Bovik
 
 (* denotes equal contribution)
 
-This is the official repository of the paper [HIDRO-VQA : High Dynamic Range Oracle for Video Quality Assessment](https://arxiv.org/abs/2110.13266)
+This is the official repository of the paper [HIDRO-VQA : High Dynamic Range Oracle for Video Quality Assessment](https://arxiv.org/abs/2311.11059)
 
 ## Usage
 The code has been tested on Linux systems with python 3.9. Please refer to [requirements.txt](requirements.txt) for installing dependent packages.
