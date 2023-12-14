@@ -1,10 +1,13 @@
 # HIDRO-VQA : High Dynamic Range Oracle for Video Quality Assessment
 
-Shreshth Saini*, Avinab Saha*, and Alan C. Bovik
+This is the official repository of the paper [HIDRO-VQA](https://arxiv.org/abs/2311.11059)
 
-(* denotes equal contribution)
+[![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/2311.11059)
 
-This is the official repository of the paper [HIDRO-VQA : High Dynamic Range Oracle for Video Quality Assessment](https://arxiv.org/abs/2311.11059)
+> HIDRO-VQA : High Dynamic Range Oracle for Video Quality Assessment  
+> Shreshth Saini*, Avinab Saha*, and Alan C. Bovik  
+> WACV 2024
+
 
 ## Usage
 The code has been tested on Linux systems with python 3.9. Please refer to [requirements.txt](requirements.txt) for installing dependent packages.
@@ -43,10 +46,19 @@ After HIDRO_VQA model training is complete, a SVR is trained using HIDRO_VQA fea
 python train_svr.py --score_file <score_csv_file> --feature_folder <feature_folder_path> --train_and_test
 ```
 
-## Contact
-Correspondence to : Avinab Saha (avinab.saha@utexas.edu) and Shreshth Saini (saini.2@utexas.edu)
+## Contributing
 
-## Citation
-```
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-```
+## Citation 
+    @article{saini2023hidro,
+    title={HIDRO-VQA: High Dynamic Range Oracle for Video Quality Assessment},
+    author={Saini, Shreshth and Saha, Avinab and Bovik, Alan C},
+    journal={arXiv preprint arXiv:2311.11059},
+    year={2023}
+    }
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
