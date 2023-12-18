@@ -6,7 +6,7 @@ This is the official repository of the paper [HIDRO-VQA](https://arxiv.org/abs/2
 
 > HIDRO-VQA: High Dynamic Range Oracle for Video Quality Assessment  
 > Shreshth Saini*, Avinab Saha*, and Alan C. Bovik  
-> 3rd Workshop on Image/Video/Audio Quality in Computer Vision and Generative AI
+> 3rd Workshop on Image/Video/Audio Quality in Computer Vision and Generative AI 
 > WACV 2024
 
 
