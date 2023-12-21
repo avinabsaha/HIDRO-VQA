@@ -56,12 +56,14 @@ python train_svr.py --score_file <score_csv_file> --feature_folder <feature_fold
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
 ## Citation 
-    @article{saini2023hidro,
-    title={HIDRO-VQA: High Dynamic Range Oracle for Video Quality Assessment},
-    author={Saini, Shreshth and Saha, Avinab and Bovik, Alan C},
-    journal={arXiv preprint arXiv:2311.11059},
-    year={2023}
-    }
+    @InProceedings{Saini_2024_WACV,
+    author    = {Saini, Shreshth and Saha, Avinab and Bovik, Alan C.},
+    title     = {HIDRO-VQA: High Dynamic Range Oracle for Video Quality Assessment},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops},
+    month     = {January},
+    year      = {2024},
+    pages     = {469-479}
+}
 
 
 ## License
