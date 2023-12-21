@@ -62,8 +62,8 @@ Contributions are welcome! If you find any issues or have suggestions for improv
     booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops},
     month     = {January},
     year      = {2024},
-    pages     = {469-479}
-}
+    pages     = {469-479}}
+
 
 
 ## License
