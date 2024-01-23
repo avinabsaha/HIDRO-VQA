@@ -5,5 +5,5 @@ Pillow==10.2.0
 scipy==1.2.1
 scikit-learn==1.0.1
 scikit-video==1.1.11
-torch==1.7.1+cu101
+torch==1.13.1
 torchvision==0.8.2+cu101
